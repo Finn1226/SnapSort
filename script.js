@@ -1,7 +1,8 @@
 // Analytics tracking - sends data to Google Sheets
 // SETUP REQUIRED: Replace SCRIPT_URL with your Google Apps Script Web App URL
 
-const SCRIPT_URL = "YOUR_GOOGLE_SCRIPT_URL_HERE"; // Replace this after setup
+const SCRIPT_URL =
+  "https://script.google.com/macros/s/AKfycbyBFKiGd9AQ30d1XhgjV6miT0a_mD-vDZoDWG19y-8JyQwJH0F2RC07_8KqgloWHrp0/exec"; // Replace this after setup
 
 // Save response to Google Sheets
 async function trackResponse(action) {
